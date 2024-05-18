@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('index1.png');
+}
+
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4d2d2;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+section {
+    margin: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+.city{
+    background-color: rgb(136, 202, 211);
+    color: white;
+    border: 2px solid white;
+    
+    padding: 20px;
+
+    position: fixed;
+  
+    left: 60%;
+    bottom: 40%;
+    width: 30%;
+    height: 20%;
+    margin: 0 auto;
+    }
